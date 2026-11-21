@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "target": "@env(DEFAULT)",
+  "package": "cn.novacommittee.mkb.mixin",
+  "plugin": "cn.novacommittee.mkb.KeyInputMixinPlugin",
+  "compatibilityLevel": "JAVA_6",
+  "refmap": "${mixin_refmap}",
+  "client": ["KeyBindingMixin", "GameSettingsMixin", "ControlsMixin", "ContainerMixin", "MinecraftInputMixin", "LegacyCharacterInputMixin", "ForgeKeyHandlerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
